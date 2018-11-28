@@ -15,3 +15,5 @@ insta_url = 'https://www.instagram.com/jong1no/' # 접속할 페이지 url 설�
 title_xpath = "/html/body/span/section/main/div/header/section/div[1]/h1" # 페이지의 데이터 위치 xpath 주소
 title = @browser.find_element(xpath: title_xpath).text # title의 text 뽑아오기
 puts title # title 출력
+
+@browser.quit # browser 종료시키기
