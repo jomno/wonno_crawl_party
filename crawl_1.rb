@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'selenium-webdriver'
 
 Selenium::WebDriver::Chrome.driver_path = `which chromedriver-helper`.chomp # 설치한 크롬 드라이버 사용
